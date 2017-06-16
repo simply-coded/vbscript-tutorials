@@ -3,3 +3,4 @@ The code used in my upcoming video series.
 
 ### Glossary
 [01 - Setup & Requirements](code/tutorial_01.vbs)  
+[02 - Statements & Comments](code/tutorial_02.vbs)  
