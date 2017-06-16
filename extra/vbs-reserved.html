@@ -386,8 +386,8 @@
         var reservedWords =
             'Abs,And,Array,As,Asc,AscW,Atn,Boolean,ByRef,Byte,ByVal,Call,Case,CBool,CByte,CCur,CDate,CDbl,Chr,ChrB,ChrW,CInt,Class,CLng,Const,Cos,CreateObject,CSng,CStr,Currency,Date,DateAdd,DateDiff,DatePart,DateSerial,DateValue,Day,Debug,Dim,Do,Double,Each,Else,ElseIf,Empty,End,Enum,Eqv,Escape,Eval,Event,Execute,ExecuteGlobal,Exit,Exp,False,Filter,Fix,For,FormatCurrency,FormatDateTime,FormatNumber,FormatPercent,Function,Get,GetLocale,GetObject,GetRef,GoTo,Hex,Hour,If,Imp,Implements,In,InputBox,InStr,InStrRev,Int,Integer,Is,IsArray,IsDate,IsEmpty,IsNull,IsNumeric,IsObject,Join,LBound,LCase,Left,Len,LenB,Let,Like,LoadPicture,Log,Long,Loop,LSet,LTrim,Me,Mid,Minute,Mod,Month,MonthName,MsgBox,New,Next,Not,Nothing,Now,Null,Oct,On,Option,Optional,Or,ParamArray,Preserve,Private,Public,RaiseEvent,Randomize,ReDim,RegExp,Rem,Replace,Resume,RGB,Right,RightB,Rnd,Round,RSet,RTrim,ScriptEngine,ScriptEngineBuildVersion,ScriptEngineMajorVersion,ScriptEngineMinorVersion,Second,Select,Set,SetLocale,Sgn,Shared,Sin,Single,Space,Split,Sqr,Static,Stop,StrComp,String,StrReverse,Sub,Tan,Then,Time,Timer,TimeSerial,TimeValue,To,Trim,True,Type,TypeName,TypeOf,UBound,UCase,UnEscape,Until,Variant,VarType,Weekday,WeekdayName,Wend,While,With,WScript,Xor,Year'
             .split(',')
-        var options;
-        for (var i = 1; i < reservedWords.length; i++) {
+        
+        for (var i = 0; i < reservedWords.length; i++) {
             options += '<option value=' + reservedWords[i] + '>'
         }
         document.getElementById('reserved').innerHTML = options
