@@ -3,7 +3,7 @@ WScript.Echo "message 1" 'this is also a comment
 
 Rem creates a comment too, but it needs a new line
 
-' use can use a colon ( : ) to start a new statement
+' you can use a colon ( : ) to start a new statement
 WScript.Echo "message 2" : WScript.Echo "message 3"
 
 WScript.Echo "message 4" : Rem now works because of the colon
