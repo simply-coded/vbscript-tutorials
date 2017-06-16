@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VBS Reserved Words</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {
+            color: #fff;
+            font-weight: 300;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .tbl-header {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .tbl-content {
+            overflow-x: auto;
+            margin-top: 0px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        table {
+            table-layout: fixed;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            padding: 10px;
+            text-align: left;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            width: 17px;
+        }
+
+        tr {
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        td {
+            padding: 15px;
+            text-align: left;
+            vertical-align: middle;
+            font-weight: 300;
+            color: #fff;
+            display: inline-block;
+        }
+
+        body {
+            background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+            background: linear-gradient(to right, #25c481, #25b7c4);
+            font-family: monospace;
+            font-size: 14pt;
+        }
+
+        section {
+            margin: 50px;
+        }
+        /* for custom scrollbar for webkit browser*/
+
+         ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+         ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        }
+
+         ::-webkit-scrollbar-thumb {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        }
+
+        label {
+            font-size: 11pt;
+            position: fixed;
+            top: 13px;
+            right: 60px;
+        }
+
+        label>input {
+            border-radius: 20px;
+            border: 1px solid white;
+            padding: 2px 13px;
+            outline: none;
+            background: transparent;
+            color: white;
+            font-size: 11pt;
+        }
+
+        a {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <datalist id="reserved">
+            <!-- js: insert reserved options -->
+        </datalist>
+        <h1>VBScript Reserved Words
+            <label>
+            <a href="mailto:simplycoded.help@gmail.com?subject=Add VBScript R-Word&body=*Insert word that needs to be added*" title="Make a request to add a word that I missed.">Add</a>
+            Search:
+            <input type="text" list="reserved" id="search">
+        </label>
+        </h1>
+
+        <div class="tbl-content">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <th class="tbl-header">A.</th>
+                        <td>Abs</td>
+                        <td>And</td>
+                        <td>Array</td>
+                        <td>As</td>
+                        <td>Asc</td>
+                        <td>AscW</td>
+                        <td>Atn</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">B.</th>
+                        <td>Boolean</td>
+                        <td>ByRef</td>
+                        <td>Byte</td>
+                        <td>ByVal</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">C.</th>
+                        <td>Call</td>
+                        <td>Case</td>
+                        <td>CBool</td>
+                        <td>CByte</td>
+                        <td>CCur</td>
+                        <td>CDate</td>
+                        <td>CDbl</td>
+                        <td>Chr</td>
+                        <td>ChrB</td>
+                        <td>ChrW</td>
+                        <td>CInt</td>
+                        <td>Class</td>
+                        <td>CLng</td>
+                        <td>Const</td>
+                        <td>Cos</td>
+                        <td>CreateObject</td>
+                        <td>CSng</td>
+                        <td>CStr</td>
+                        <td>Currency</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">D.</th>
+                        <td>Date</td>
+                        <td>DateAdd</td>
+                        <td>DateDiff</td>
+                        <td>DatePart</td>
+                        <td>DateSerial</td>
+                        <td>DateValue</td>
+                        <td>Day</td>
+                        <td>Debug</td>
+                        <td>Dim</td>
+                        <td>Do</td>
+                        <td>Double</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">E.</th>
+                        <td>Each</td>
+                        <td>Else</td>
+                        <td>ElseIf</td>
+                        <td>Empty</td>
+                        <td>End</td>
+                        <td>Enum</td>
+                        <td>Eqv</td>
+                        <td>Escape</td>
+                        <td>Eval</td>
+                        <td>Event</td>
+                        <td>Execute</td>
+                        <td>ExecuteGlobal</td>
+                        <td>Exit</td>
+                        <td>Exp</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">F.</th>
+                        <td>False</td>
+                        <td>Filter</td>
+                        <td>Fix</td>
+                        <td>For</td>
+                        <td>FormatCurrency</td>
+                        <td>FormatDateTime</td>
+                        <td>FormatNumber</td>
+                        <td>FormatPercent</td>
+                        <td>Function</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">G.</th>
+                        <td>Get</td>
+                        <td>GetLocale</td>
+                        <td>GetObject</td>
+                        <td>GetRef</td>
+                        <td>GoTo</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">H.</th>
+                        <td>Hex</td>
+                        <td>Hour</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">I.</th>
+                        <td>If</td>
+                        <td>Imp</td>
+                        <td>Implements</td>
+                        <td>In</td>
+                        <td>InputBox</td>
+                        <td>InStr</td>
+                        <td>InStrRev</td>
+                        <td>Int</td>
+                        <td>Integer</td>
+                        <td>Is</td>
+                        <td>IsArray</td>
+                        <td>IsDate</td>
+                        <td>IsEmpty</td>
+                        <td>IsNull</td>
+                        <td>IsNumeric</td>
+                        <td>IsObject</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">J.</th>
+                        <td>Join</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">L.</th>
+                        <td>LBound</td>
+                        <td>LCase</td>
+                        <td>Left</td>
+                        <td>Len</td>
+                        <td>LenB</td>
+                        <td>Let</td>
+                        <td>Like</td>
+                        <td>LoadPicture</td>
+                        <td>Log</td>
+                        <td>Long</td>
+                        <td>Loop</td>
+                        <td>LSet</td>
+                        <td>LTrim</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">M.</th>
+                        <td>Me</td>
+                        <td>Mid</td>
+                        <td>Minute</td>
+                        <td>Mod</td>
+                        <td>Month</td>
+                        <td>MonthName</td>
+                        <td>MsgBox</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">N.</th>
+                        <td>New</td>
+                        <td>Next</td>
+                        <td>Not</td>
+                        <td>Nothing</td>
+                        <td>Now</td>
+                        <td>Null</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">O.</th>
+                        <td>Oct</td>
+                        <td>On</td>
+                        <td>Option</td>
+                        <td>Optional</td>
+                        <td>Or</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">P.</th>
+                        <td>ParamArray</td>
+                        <td>Preserve</td>
+                        <td>Private</td>
+                        <td>Public</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">R.</th>
+                        <td>RaiseEvent</td>
+                        <td>Randomize</td>
+                        <td>ReDim</td>
+                        <td>RegExp</td>
+                        <td>Rem</td>
+                        <td>Replace</td>
+                        <td>Resume</td>
+                        <td>RGB</td>
+                        <td>Right</td>
+                        <td>RightB</td>
+                        <td>Rnd</td>
+                        <td>Round</td>
+                        <td>RSet</td>
+                        <td>RTrim</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">S.</th>
+                        <td>ScriptEngine</td>
+                        <td>ScriptEngineBuildVersion</td>
+                        <td>ScriptEngineMajorVersion</td>
+                        <td>ScriptEngineMinorVersion</td>
+                        <td>Second</td>
+                        <td>Select</td>
+                        <td>Set</td>
+                        <td>SetLocale</td>
+                        <td>Sgn</td>
+                        <td>Shared</td>
+                        <td>Sin</td>
+                        <td>Single</td>
+                        <td>Space</td>
+                        <td>Split</td>
+                        <td>Sqr</td>
+                        <td>Static</td>
+                        <td>Stop</td>
+                        <td>StrComp</td>
+                        <td>String</td>
+                        <td>StrReverse</td>
+                        <td>Sub</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">T.</th>
+                        <td>Tan</td>
+                        <td>Then</td>
+                        <td>Time</td>
+                        <td>Timer</td>
+                        <td>TimeSerial</td>
+                        <td>TimeValue</td>
+                        <td>To</td>
+                        <td>Trim</td>
+                        <td>True</td>
+                        <td>Type</td>
+                        <td>TypeName</td>
+                        <td>TypeOf</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">U.</th>
+                        <td>UBound</td>
+                        <td>UCase</td>
+                        <td>UnEscape</td>
+                        <td>Until</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">V.</th>
+                        <td>Variant</td>
+                        <td>VarType</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">W.</th>
+                        <td>Weekday</td>
+                        <td>WeekdayName</td>
+                        <td>Wend</td>
+                        <td>While</td>
+                        <td>With</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">X.</th>
+                        <td>XOr</td>
+                    </tr>
+
+                    <tr>
+                        <th class="tbl-header">Y.</th>
+                        <td>Year</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script>
+        // populate search
+        var reservedWords =
+            'Abs,And,Array,As,Asc,AscW,Atn,Boolean,ByRef,Byte,ByVal,Call,Case,CBool,CByte,CCur,CDate,CDbl,Chr,ChrB,ChrW,CInt,Class,CLng,Const,Cos,CreateObject,CSng,CStr,Currency,Date,DateAdd,DateDiff,DatePart,DateSerial,DateValue,Day,Debug,Dim,Do,Double,Each,Else,ElseIf,Empty,End,Enum,Eqv,Escape,Eval,Event,Execute,ExecuteGlobal,Exit,Exp,False,Filter,Fix,For,FormatCurrency,FormatDateTime,FormatNumber,FormatPercent,Function,Get,GetLocale,GetObject,GetRef,GoTo,Hex,Hour,If,Imp,Implements,In,InputBox,InStr,InStrRev,Int,Integer,Is,IsArray,IsDate,IsEmpty,IsNull,IsNumeric,IsObject,Join,LBound,LCase,Left,Len,LenB,Let,Like,LoadPicture,Log,Long,Loop,LSet,LTrim,Me,Mid,Minute,Mod,Month,MonthName,MsgBox,New,Next,Not,Nothing,Now,Null,Oct,On,Option,Optional,Or,ParamArray,Preserve,Private,Public,RaiseEvent,Randomize,ReDim,RegExp,Rem,Replace,Resume,RGB,Right,RightB,Rnd,Round,RSet,RTrim,ScriptEngine,ScriptEngineBuildVersion,ScriptEngineMajorVersion,ScriptEngineMinorVersion,Second,Select,Set,SetLocale,Sgn,Shared,Sin,Single,Space,Split,Sqr,Static,Stop,StrComp,String,StrReverse,Sub,Tan,Then,Time,Timer,TimeSerial,TimeValue,To,Trim,True,Type,TypeName,TypeOf,UBound,UCase,UnEscape,Until,Variant,VarType,Weekday,WeekdayName,Wend,While,With,Xor,Year'
+            .split(',')
+        var options;
+        for (var i = 0; i < reservedWords.length; i++) {
+            options += '<option value=' + reservedWords[i] + '>'
+        }
+        document.getElementById('reserved').innerHTML = options
+
+        document.getElementById('search').addEventListener('click', function (e) {
+            var input = e.target,
+                list = input.getAttribute('list')
+
+            if (list) {
+                input.setAttribute('data-list', list)
+                input.removeAttribute('list')
+            }
+        });
+
+        document.getElementById('search').addEventListener('keydown', function (e) {
+            var input = e.target,
+                list = input.getAttribute('data-list')
+
+            if (list) {
+                input.setAttribute('list', list)
+                input.removeAttribute('data-list')
+            }
+        })
+    </script>
+
+</body>
+
+</html>
