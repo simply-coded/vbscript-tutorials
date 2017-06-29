@@ -1,1 +1,1 @@
-wscript.echo "chicken nuggets"
+wscript.echo "chicken nuggets" 
